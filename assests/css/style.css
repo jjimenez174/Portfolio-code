@@ -57,11 +57,16 @@ header a{
 
 
 /* hero styling start*/
+.hero{
+    display: flex;
+    justify-content: space-around;
+    padding: 5% 0;
+}
 .hero img {
     border-radius: 70%;
     border: 3px solid mistyrose;
-    height: 280px;
-   margin-top: 1%;
+    height: 300px;
+   margin-top: -10%;
 } 
 
 .hero .quote {
@@ -70,7 +75,7 @@ header a{
     display: flex;
     justify-content: center;
     text-align: center;
-    margin-top: -15%;
+    align-items: center;
     color: var(--primery);
 }
 
@@ -82,7 +87,7 @@ header a{
 /* class styling start */
 
 .content {
-    margin-top: 8%;
+    margin-top: -4%;
     border: 1px solid var(--secondory);
 }
 
@@ -275,10 +280,6 @@ footer ul li a:hover {
 
     header nav ul {
         min-height: 60px;
-    }
-
-    .hero {
-        flex-direction: column;
     }
 
     .about-me {
